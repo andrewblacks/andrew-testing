@@ -1,0 +1,147 @@
+C:\Users\Student\Desktop\PortableGit>
+C:\Users\Student\Desktop\PortableGit>cd\
+
+C:\>cd Users\Student\Downloads
+
+C:\Users\Student\Downloads>mk dir
+'mk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Student\Downloads>mk dir project
+'mk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Student\Downloads>mkdir project
+
+C:\Users\Student\Downloads>cd project
+
+C:\Users\Student\Downloads\project>git clone https://github.com/MichaelATang/CSE2102
+Cloning into 'CSE2102'...
+remote: Enumerating objects: 97, done.
+remote: Counting objects: 100% (97/97), done.
+remote: Compressing objects: 100% (69/69), done.
+remote: Total 97 (delta 26), reused 86 (delta 21), pack-reused 0
+Unpacking objects: 100% (97/97), done.
+
+C:\Users\Student\Downloads\project>dir
+ Volume in drive C is OS
+ Volume Serial Number is B8AC-0014
+
+ Directory of C:\Users\Student\Downloads\project
+
+10/12/2018  11:55 AM    <DIR>          .
+10/12/2018  11:55 AM    <DIR>          ..
+10/12/2018  11:55 AM    <DIR>          CSE2102
+               0 File(s)              0 bytes
+               3 Dir(s)  213,062,479,872 bytes free
+
+C:\Users\Student\Downloads\project>cd CSE2102
+
+C:\Users\Student\Downloads\project\CSE2102>dir
+ Volume in drive C is OS
+ Volume Serial Number is B8AC-0014
+
+ Directory of C:\Users\Student\Downloads\project\CSE2102
+
+10/12/2018  11:55 AM    <DIR>          .
+10/12/2018  11:55 AM    <DIR>          ..
+10/12/2018  11:55 AM               286 README.md
+10/12/2018  11:55 AM    <DIR>          Week1
+10/12/2018  11:55 AM    <DIR>          Week2
+10/12/2018  11:55 AM    <DIR>          Week3
+10/12/2018  11:55 AM    <DIR>          Week4
+10/12/2018  11:55 AM    <DIR>          Week5
+               1 File(s)            286 bytes
+               7 Dir(s)  213,062,479,872 bytes free
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        buck man/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Downloads\project\CSE2102>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Student\Downloads\project\CSE2102>git add .
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   buck man/,efbwe.txt
+
+
+C:\Users\Student\Downloads\project\CSE2102>git add .
+
+C:\Users\Student\Downloads\project\CSE2102>get status
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   buck man/,efbwe.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        buck man/GEO1106 Lab 2 - Body Text (1).docx
+        buck man/GEO1106 Lab 2 - Body Text.docx
+        buck man/GEO2109 Lab2_Google Earth Introduction (1).docx
+        buck man/Geographic coordinate systems.doc
+
+
+C:\Users\Student\Downloads\project\CSE2102>git add .
+
+C:\Users\Student\Downloads\project\CSE2102>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   buck man/,efbwe.txt
+        new file:   buck man/GEO1106 Lab 2 - Body Text (1).docx
+        new file:   buck man/GEO1106 Lab 2 - Body Text.docx
+        new file:   buck man/GEO2109 Lab2_Google Earth Introduction (1).docx
+        new file:   buck man/Geographic coordinate systems.doc
+
+
+
+
+
+git commit -am "demo project"
+git config --gobal user.email "fbwef@gmail.com"
+git config -- global uers.name "name"
+git push
+git status
+git commit -am "demo project"
+git push
